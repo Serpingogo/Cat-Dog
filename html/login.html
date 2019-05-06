@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cat&Dog商品网站登录页面</title>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../libs/bootstrap/css/bootstrap.min.css">
+    <script src="../libs/jquery/jQuery v3.4.0.js"></script>
+    <script src="../libs/tools.js"></script>
+</head>
+<body>
+    <div class="container" id="login-resigner">
+        <div class="modal-body">
+            <form class="form-horizontal">
+                <div class="form-group">
+                    <label for="shop" class="col-sm-2 control-label">用户名</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="userName" placeholder="请输入用户名">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="shopPrice" class="col-sm-2 control-label">密码</label>
+                    <div class="col-sm-10">
+                        <input type="password" class="form-control" id="pwd" placeholder="请输入密码">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-10"><input type="checkbox" name="" id="checked">七天免登录</label>
+                    <a href="./resigner.html">注册账号</a> 
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" id="loginBtn">登录</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>              
+                </div>                          
+            </form>
+        </div>
+    </div> 
+    <script src="../js/login.js"></script>   
+</body>
+</html>

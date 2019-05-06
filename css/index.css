@@ -1,0 +1,19 @@
+#addBtn{
+    margin-bottom: 20px;
+}
+.table{
+    table-layout: fixed;
+}
+.unedit input,.unedit .okBtn,.unedit .cancelBtn{
+    display: none;
+}
+.onedit span,.onedit .editBtn,.onedit .delBtn{
+    display: none;
+}
+#tbody button{
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.unlogining{
+    display: none;
+}
